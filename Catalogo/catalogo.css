@@ -1,0 +1,92 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(  to bottom right, #FF6EC7, #7873F5, #FF6EC7, #7873F5,  #FF6EC7, #7873F5,  #FF6EC7, #7873F5); /* Pink to Purple gradient */
+    }
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color:#FF6EC7, #7873F5; /* Dark background color for the header */
+    }
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%; /* Make the image round */
+        width: 500px; /* Set a specific width for the image */
+        max-height: 500px; /* Set a max height to avoid stretching on small screens */
+    
+    }
+
+    .header-text {
+        padding-left: 20px;
+        color: white;
+    }
+
+    .header-text h1 {
+        margin: 0;
+        font-size: 2em;
+        color: white;
+    }
+
+    .header-text h2 {
+        margin: 5px 0;
+        font-size: 1.2em;
+        color: white;
+    }
+
+    .header-text a {
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color:  #FF00FF; /* Instagram color */
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 2px solid white
+        
+    }
+
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.producto {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid white; /* Border color (a shade of pink) */
+    border-radius: 15px; /* Rounded corners */
+    text-align: center;
+    background-color: #FF00FF;
+   
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; /* Set the image width to 100% of its container */
+    max-height: 300%; 
+}
+
+.precio {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+}
+.producto h3,
+.producto p,
+.producto .precio {
+    color: white; /* Set text color to white */
+}
